@@ -1,5 +1,5 @@
 {% set name = "grunnur" %}
-{% set version = "0.3.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/grunnur-{{ version }}.tar.gz
-  sha256: 08428ca54402f7ca906ae0224394734f6cf6473198a109436ae26e27da74e940
+  sha256: b76182b7045e67d9eb7e0902e39d9cc6940dc3221aa3d1c168007183dc01ce89
 
 build:
   noarch: python
